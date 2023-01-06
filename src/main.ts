@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router' // 路由
+import '@/router/router-config'
 import { setupStore } from '@/store'
 async function bootstrap() {
   const app = createApp(App)

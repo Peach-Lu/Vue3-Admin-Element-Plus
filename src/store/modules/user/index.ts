@@ -11,6 +11,7 @@ export const useUserStore = defineStore('useUserInfoStore', () => {
     counter: 0
   })
   const increment = () => {
+    debugger
     console.log('increment')
     state.value.counter++
     useAppStoreHook().token += state.value.counter

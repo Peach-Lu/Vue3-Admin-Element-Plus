@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { useUserStore, useUserStore2 } from '@/store/modules/user/index'
+import { useUserStore } from '@/store/modules/user/index'
 import { useAppStore } from '@/store/modules/app'
 const userStore = useUserStore()
 const appstore = useAppStore()
